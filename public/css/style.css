@@ -1,0 +1,142 @@
+.title{
+    height: 50px;
+    width: 300px;
+}
+body{
+    background-color: rgb(25, 29, 40);
+    padding: 40px;
+}
+nav{
+    width: 90vw;
+    margin: 10px auto;
+    display:flex;
+    justify-content: space-between;
+}
+.container {
+    position: relative;
+}
+
+.finstreet{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(104, 105, 108);
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    letter-spacing: -1px;
+    
+
+}.finstreetText{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(53, 161, 159);
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    letter-spacing: -1px;
+}   
+
+.titler{
+    display:flex;
+}
+.telegram{
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+    color: rgb(45, 198, 193);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.telegram img{
+    width: 200px;
+}
+
+select{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(46, 50, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px; 
+}
+
+.teleBtn{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(46, 50, 65);
+    border-radius: 18px;
+}
+.teleBtn button{
+    height: 100%;
+    width: 30px;
+    border-radius: 50%;
+    text-align: right;
+    background-color: rgb(61, 198, 193);
+    text-decoration: none;
+    padding: 5x;
+    margin-left: 30px;
+}
+
+
+.cryptoNews img{
+    width: 100%;
+}
+tr{
+    border: none;
+}
+.Heading{
+    color:rgb(128, 130, 136);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.CryptoData{
+    background-color: rgb(46, 50, 65);
+    color: white;
+   
+}
+
+tr{
+    height: 50px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    width: 91vw;
+    padding: 10px;
+}
+
+.tbl{
+    margin: 10px;
+}
+
+.banner{
+    width: 92vw;
+}
+.banner img{
+    width: 100%;
+}
+footer{
+    width: 91vw;
+display: flex;
+justify-content: space-between;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(136, 134, 134);
+    letter-spacing: -1.3px;
+}
+span{
+    color:rgb(61, 198, 193);
+}
+@media screen and (max-width: 745px){
+
+    nav{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="container">   
+            <img class="title" src="/img/hodlinfotitle.jpg" alt="">
+            <div class="titler">
+                <h3 class="finstreet">Powered By</h3>&nbsp;<h3 class="finstreetText">Finstreet</h3>
+            </div>
+          
+        </div>
+
+        <div>
+            <select name="" id="">
+                <option value="INR"><a href="#">INR</a></option>
+            </select>
+            <select name="" id="">
+                <%for(let opt of show){%>
+                <option value="INR"><a href="#"><%=opt%></a></option>
+                <%}%>
+            </select>
+        </div>
+        <div class="telegram">
+        
+                <h2 id="timing">60</h2>
+   
+            <a href="https://hodlinfo.com/connect/telegram"><img src="/img/telegram.jpg" alt=""></a>
+            <div class="teleBtn">
+                <button></button>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="cryptoNews">
+        <a href="https://finstreet.in/">  <img src="/img/cryptonews.54869ee3.png" alt=""></a>
+      
+    </div>
+    <br>
+    <br>
+    <div class="tbl">
+        <table>
+            <tr class="Heading">
+                <td>#</td>
+                <td>Name</td>
+                <td>Last</td>
+                <td>Buy/Sell Price</td>
+                <td>Volume</td>
+                <td>base_unit</td>
+            </tr>
+     
+                <%let count = 1%>
+                <%for(let val of cryptoValue){%>
+              
+                        <tr class="CryptoData">
+                            <td><%=count%></td>
+                            <td><%=val.name%></td>
+                            <td>₹ &nbsp;<%=val.last%></td>
+                            <td>₹ &nbsp;<%=val.buy%>&nbsp;/&nbsp;₹ &nbsp;<%=val.sell%></td>
+                            <td><%=val.volume%></td>
+                            <td><%=val.base_unit%></td>
+                            <%count++%>
+                        </tr>
+                        <%}%>    
+      
+        </table>
+        
+    </div>
+    <br>
+    <br>
+    <div class="banner">
+        <a href="https://www.algorand.com/futurefi/"><img src="/img/banner.jpg" alt=""></a>
+        
+    </div>
+    <br>
+    <br>
+    <hr>
+    <footer>
+    
+        <p>Copyright © 2019 &nbsp; &nbsp; HodlInfo.com  &nbsp; &nbsp; Developed By <span> QuadBTech</span></p>
+        <p>Support</p>
+
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
